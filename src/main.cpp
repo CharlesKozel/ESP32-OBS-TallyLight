@@ -17,6 +17,10 @@
   This is designed to interface with OBS through the web-socket plugin: https://github.com/Palakis/obs-websocket
 */
 
+#define NUM_LEDS 10
+#define LED_BRIGHTNESS 10 // between 0-255, where 255 is max brightness
+#define DATA_PIN 13
+
 CRGB leds[NUM_LEDS];
 
 WiFiMulti WiFiMulti;
